@@ -19,3 +19,17 @@ Also a long tailed dataset, these labels cover almost a third of the iWildCam 20
 
 ## Qualitative analysis
 Next, lets look at the content of the iNaturalist augmentation dataset. The main iWildCam 2020 dataset is composed of camera trap data, which presents a host a real world problems (detailed in the main competition page), as well as iNaturalist data and satellite imagery. The ultimate goal remains to classify a test set of camera trap images. However, we hope that a multimodal approach, using the iNaturalist data and the satellite imagery, could produce better results on this task. Let's take a look at some classes and how the images compare between iWildCam 2020 and the iNaturalist data.
+
+[iNaturalist](iNaturalist.org) is known for its large collection of high quality wildlife images. This is very apparent in some of the classes of this challenge, shown below, where the camera trap images cannot compare in quality. The left 3x3 images are chosen at random from the iWildCam 2020 camera trap dataset, while the right 3x3 images are chosen randomly from the iNaturalist augmentation dataset.
+![](assets/101.jpg)
+![](assets/372.jpg)
+![](assets/563.jpg)
+
+In some cases, iNaturalist data is almost the same in terms of quality (or even worse) than the corresponding iWildCam data. Some iNaturalist data is composed of camera trap images.
+![](assets/124.jpg)
+![](assets/6.jpg)
+
+In other cases, the quality of iNaturalist data matches iWildCam data.
+![](assets/154.jpg)
+![](assets/8.jpg)
+![](assets/570.jpg)
